@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png" href="">
+  <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="utility.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="container flex bg-black">
+    <div class="left ">
+      <div class="home bg-grey m-1 p-1">
+        <div class="close invert ">
+          <img class="s10" src="svg/close.svg" alt="">
+        </div>
+        <div class="logo m5"><img class="invert logoo" src="svg/logo.svg" alt="">Spotify</div>
+
+        <ul class="g-5">
+          <li><img class="invert" src="svg/home.svg" alt="">Home</li>
+          <li><img class="invert" src="svg/search.svg" alt="">Search</li>
+        </ul>
+
+      </div>
+
+      <div class="library bg-grey m-1 p-1">
+        <div class="lib">
+          Your Library
+        </div>
+        <div class="songList">
+          <ul>
+            <!-- <li >
+               <img class="invert asdd" src="svg/music.svg" alt="">
+               <div class="sna"><div class="sname">Song Name</div>
+               <div class="Sartist"> Song Artist</div></div>
+               <div class="fnc">Play Now</div>
+               <div class="play fnc"><img class=" asdd invert" src="playbtn.svg" alt=""></div>
+              </li> -->
+          </ul>
+
+
+        </div>
+
+        <div class="accessibility">
+          <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+          <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+          <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+          <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="right m-1  bg-lin">
+
+      <div class="header">
+        
+        <div style="gap: 20px;" class="fnc arrow">
+          <div class="hamburger">
+          <img class="s10 invert" src="svg/hamburger.svg" alt="">
+        </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+          </svg>
+        </div>
+        <div class="Button">
+
+
+          <button class="signupBtn">Signup</button>
+          <button class="loginBtn">Login</button>
+        </div>
+      </div>
+
+
+      <div class="spotify_Playlist">
+        <h1 style="padding: 0.5rem;">Spotify Playlist</h1>
+        <div class="Card-list">
+
+          <div class="sidebtn">
+            <img class="arrowbtn" src="svg/rb.svg" alt="">
+           <img class="arrowbtn" src="svg/lb.svg" alt="">
+
+          </div>
+
+          <div class="card "  data-folder="nyc"><img class="svg"  src="svg/cardPlay.svg" alt="">
+            <img class="imge" aria-hidden="false" draggable="false" loading="lazy"
+              src="https://i.scdn.co/image/ab67616d00001e023dc5639cb321a69b721bed92" data-testid="card-image" alt=""
+              class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+            <div class="listName wrap">For A Reason </div>
+            <div class="name wrap">Karan Aujla,Ikky</div>
+          </div>
+
+
+
+
+          <div class="card "  data-folder="cs"><img class="svg" src="svg/cardPlay.svg" alt=""><img aria-hidden="false" draggable="false" loading="lazy"
+              src="https://i.scdn.co/image/ab67616d00001e02203e6495a78184970ab274ac" data-testid="card-image" alt=""
+              class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+            <div class="listName wrap">AZUL</div>
+            <div class="name wrap">Guru Randhawa, Gurjit Gill, Lavish Dhiman</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            
+<img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+
+            <div class="listName wrap">Aashiqui 2</div>
+            <div class="name wrap">mithoon,Ankit Tiwari, Jeet Gannguli</div>
+          </div>
+
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67656300005f1f8014f6636493116fc45755c3" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Marz</div>
+            <div class="name wrap">Jeet Gannguli</div>
+          </div>
+
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+             <div class="listName wrap">Finding Her</div>
+            <div class="name wrap">Kushagra, Bharat, Saaheal</div>
+          </div>
+
+<div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Yeh Jawaani Hai Deewani</div>
+            <div class="name wrap">Pritham</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f000000023ecf97d47f4c7d7d60d28bba" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jab We Met</div>
+            <div class="name wrap">Bharat, Saaheal</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+           <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jo Tum Mere Ho</div>
+            <div class="name wrap">Anuv Jain</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+       <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02982320da137d0de34410df61" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Hurry Up Tommorrow</div>
+            <div class="name wrap">The Weekend</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+           <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Glory</div>
+            <div class="name wrap">Honey Singh</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+         <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67656300005f1f1729c9c787af7878a3d93c75" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jhol</div>
+            <div class="name wrap">Coke Studio</div>
+          </div>
+          
+        </div>
+
+
+
+<div class="Round">
+  <h1 style="padding: 0.5rem;">Today's Hits</h1>
+<div class="scrollkaro">
+<div class="k">
+  <div class="card "  data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+         <img aria-hidden="false" style="border-radius: 50%; border: 2px solid white;" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67656300005f1f1729c9c787af7878a3d93c75" data-testid="card-image" alt="" class="kardeRound ">
+            <div class="listName wrap">Jhol</div>
+            <div class="name wrap">Coke Studio</div>
+          </div>
+          
+       </div>
+
+
+
+          <div class="card mmn " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+           <img  style="border-radius: 50%; border: 2px solid white;" aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Glory</div>
+            <div class="name wrap">Honey Singh</div>
+          </div>
+
+           <div class="card  mmn " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img  style="border-radius: 50%; border: 2px solid white;" aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f000000023ecf97d47f4c7d7d60d28bba" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jab We Met</div>
+            <div class="name wrap">Bharat, Saaheal</div>
+          </div>
+
+          <div class="card  mmn" data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+           <img style="border-radius: 50%; border: 2px solid white;"  aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jo Tum Mere Ho</div>
+            <div class="name wrap">Anuv Jain</div>
+          </div>
+
+  <div class="card  mmn " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img  style="border-radius: 50%; border: 2px solid white;" aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+             <div class="listName wrap">Finding Her</div>
+            <div class="name wrap">Kushagra, Bharat, Saaheal</div>
+          </div>
+
+<div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img style="border-radius: 50%; border: 2px solid white;"  aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 DlkUu3oBOxXLc2LtOd3N PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Yeh Jawaani Hai Deewani</div>
+            <div class="name wrap">Pritham</div>
+          </div>
+
+          <div class="card " data-folder="ms"><img class="svg" src="svg/cardPlay.svg" alt="">
+            <img style="border-radius: 50%; border: 2px solid white;"  aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f000000023ecf97d47f4c7d7d60d28bba" data-testid="card-image" alt="" class="LBM25IAoFtd0wh7k3EGM Z3N2sU3PRuY4NgvdEz55 PgTMmU2Gn7AESFMYhw4i">
+            <div class="listName wrap">Jab We Met</div>
+            <div class="name wrap">Bharat, Saaheal</div>
+          </div>
+
+</div>
+  
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+        <div class="playbar">
+          <div class="infobarbtn"><div class="songInfo"></div>
+          <div class="playimg ">
+             <img style="width: 2rem;" id="previous" class="s10" src="svg/leftbtn.svg" alt="">
+          <img id="playpause" style="width: 2rem;" class="s10 " src="svg/playbtn.svg" alt="">
+          <img id="next" style="width: 2.1rem; " class="s10"src="svg/rightbtn.svg" alt="">
+          </div>
+
+          
+        <div class="volume">
+            <img  class="s10 vol " src="svg/volume.svg" alt="">
+            <input class="volRange" type="range" name="" id="myRange">
+          </div>
+
+
+         </div>
+         
+
+          
+          <div class="TimeLine">
+            <div class="songTime"></div>
+           <div class="uu"> <div class="line"></div>
+            <div class="circle"></div></div>
+            <div class="totalTime"></div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+
+      
+    </div>
+  </div>
+
+
+
+
+
+  <script src="Logic.js"></script>
+</body>
+
+</html>

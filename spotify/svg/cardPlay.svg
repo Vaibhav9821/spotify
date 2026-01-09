@@ -1,0 +1,17 @@
+<svg  fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <!-- Gradient definition -->
+              <defs>
+                <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style="stop-color: #90ee90; stop-opacity:1" /> <!-- Light green -->
+                  <stop offset="100%" style="stop-color: #006400; stop-opacity:1" /> <!-- Dark green -->
+                </linearGradient>
+              </defs>
+
+              <!-- Circle with gradient -->
+              <circle cx="12" cy="12" r="10" fill="url(#greenGradient)" />
+
+              <!-- Black play button -->
+              <path d="M14.75,12.83 11.55,15A1,1,0,0,1,10,14.13V9.87A1,1,0,0,1,11.55,9l3.2,2.13A1,1,0,0,1,14.75,12.83Z"
+                fill="black" />
+            </svg>

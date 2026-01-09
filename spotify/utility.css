@@ -1,0 +1,90 @@
+.border{
+    border: 1px solid red;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+
+.bg-black{
+    background-color: black;
+     color: white;
+}
+.bg-grey{
+    background-color: #121212;
+   border-radius: 7px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.m-2{
+    margin: 5px;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.wrap{
+    word-wrap: wrap;
+    white-space: normal;   /* allow text to break into lines */
+  word-wrap: break-word; /* break long words */
+  overflow: hidden;      /* hide if still overflows */
+  text-overflow: ellipsis; /* optional: add "..." if cut */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;    /* max 2 lines */
+  -webkit-box-orient: vertical;
+}
+
+.Card-list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.s10{
+    width: 25px;
+    cursor: pointer;
+}
+
+.fnc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* making everythng responsive sirr */
+ @media (max-width:1040px){
+   .left{
+      z-index:2;
+      position: absolute;
+    left: -120%;
+      transition:all 0.5s ;
+      width: 400px;   
+   }
+.right{
+    width:100vw ;
+    height: 100vh;
+     overflow: hidden;
+}
+.playbar{   
+   
+    width: 90vw;
+}
+.hamburger{
+    display: block;
+}
+
+.sidebtn{
+    width: 90vw;
+}
+
+.infobarbtn{
+ /* font-size: clamp(14px, 2vw, 30px);
+ gap: 10px;
+ align-items: space-between; */
+
+}
+ }
